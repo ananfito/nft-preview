@@ -1,0 +1,14 @@
+:root {
+  /* Colors */
+  --primary-soft-blue: hsl(215, 51%, 70%);
+  --primary-cyan: hsl(178, 100%, 50%);
+
+  --neutral-dark-blue1: hsl(217, 54%, 11%); /* main BG */
+  --neutral-dark-blue2: hsl(216, 50%, 16%); /* card BG */
+  --neutral-dark-blue3: hsl(215, 32%, 27%); /* line */
+
+  --white: hsl(0, 0%, 100%);
+
+  font-size: 18px;
+  font-family: "Outfit", Verdana, Geneva, Tahoma, sans-serif;
+}
