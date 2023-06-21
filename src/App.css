@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  max-width: 330px;
+  background-color: var(--neutral-dark-blue2);
+  padding: 1.5em;
+}
+
+.container, .product-img {
+  border-radius: 8px;
+}
+
+.product-img, 
+.product-title, 
+.product-description {
+  margin-bottom: 1.5em;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.product-title {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price, .product-expiry-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .8rem;
+}
+
+.product-price {
+  color: var(--primary-cyan);
+  font-weight: 400;
+}
+
+.product-info__icon {
+  margin-right: .3em;
+}
+
+.divider {
+  color: var(--neutral-dark-blue3);
+  margin: 1em 0;
+}
