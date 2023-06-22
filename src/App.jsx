@@ -13,7 +13,7 @@ function App() {
     <main className='container'>
       <section>
         <img src={nftImgUrl} alt="" className='product-img' />
-        <h1 className='product-title'>Equilibrium #3429</h1>
+        <h1 className="product-title"><a className='link'>Equilibrium #3429</a></h1>
         <p className='product-description'>Our Equilibrium collection promotes balance and calm.</p>
       </section>
 
@@ -32,7 +32,7 @@ function App() {
 
       <section className='creator-info'>
         <img src={avatarImgUrl} alt="" className="creator-avatar" />
-        <p>Creation of <a href="" className='creator-link'>Jules Wyvern</a></p>
+        <p>Creation of <a href="" className='link creator-link'>Jules Wyvern</a></p>
       </section>
     </main>
   )
