@@ -12,8 +12,16 @@ function App() {
   return (
     <main className='container'>
       <section>
-        <img src={nftImgUrl} alt="" className='product-img' />
+        <div className='img-container'>
+          <img src={nftImgUrl} alt="" className='product-img' />
+
+          <div className='middle'>
+            <img src={viewIconUrl} alt="" />
+          </div>
+        </div>
+
         <h1 className="product-title"><a className='link'>Equilibrium #3429</a></h1>
+
         <p className='product-description'>Our Equilibrium collection promotes balance and calm.</p>
       </section>
 
