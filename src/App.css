@@ -1,3 +1,4 @@
+/* BASE STYLES */
 .container {
   margin: 0 auto;
   max-width: 350px;
@@ -20,13 +21,18 @@
   border-radius: 8px;
 }
 
-.img-container { border-radius: 10px; }
+.img-container { 
+  border-radius: 10px; 
+}
 
 .product-img, 
 .product-title, 
 .product-description {
   margin-bottom: 1.5em;
 }
+
+
+/* PRODUCT IMAGE */
 
 .img-container {
   position: relative;
@@ -62,12 +68,14 @@
 
 .img-container:hover .product-img {
   opacity: .4;
-  
 }
 
 .img-container:hover .middle {
   opacity: 1;
 }
+
+
+/* PRODUCT INFO */
 
 .product-title {
   color: var(--white);
@@ -100,6 +108,9 @@
   color: var(--neutral-dark-blue3);
   margin: 1em 0;
 }
+
+
+/* CREATOR SECTION */
 
 .creator-info {
   display: flex;

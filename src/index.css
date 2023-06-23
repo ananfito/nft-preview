@@ -21,16 +21,9 @@
 body {
   background-color: var(--neutral-dark-blue1);
   color: var(--primary-soft-blue);
-  padding: 2em;
-  
-}
-
-@media (min-width: 500px) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 0 2em;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 2em;
 }

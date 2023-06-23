@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import nftImgUrl from './assets/image-equilibrium.jpg'
 import clockIconUrl from './assets/icon-clock.svg'
@@ -7,8 +6,6 @@ import viewIconUrl from './assets/icon-view.svg'
 import ethereumIconUrl from './assets/icon-ethereum.svg'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <main className='container'>
       <section>
@@ -30,6 +27,7 @@ function App() {
           <img src={ethereumIconUrl} alt="" className='product-info__icon' />
           <p>0.041 ETH</p>
         </div>
+
         <div className="product-expiry-date">
           <img src={clockIconUrl} alt="" className='product-info__icon' />
           <p>3 days left</p>
