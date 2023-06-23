@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-component-built-with-react-no-figma-file-_4qABCQila
+- Live Site URL: https://ntf-preview-6135.netlify.app/
 
 ## My process
 
